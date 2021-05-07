@@ -56,7 +56,7 @@ curl -X POST -H "Content-Type: application/json" -H "Authorization: Bearer ...JW
 Following is a list of assumptions made for this project.
 * Before any search request, the user must authenticate using username and password (By default, the values are `"username": "demo", "password": "pass"`.
 * The dental clinic search and vet clinic search will be made on different endpoints due to the different data resource files provided. 
-* 
+* The **JSON** files for dental and vet clinic data must be in the root folder of project, where `server` file can be found.
 
 ## Project Layout
 

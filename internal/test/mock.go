@@ -1,17 +1,18 @@
 package test
 
 import (
+	"net/http"
+	"net/http/httptest"
+
 	routing "github.com/go-ozzo/ozzo-routing/v2"
 	"github.com/go-ozzo/ozzo-routing/v2/content"
 	"github.com/go-ozzo/ozzo-routing/v2/cors"
 	"github.com/olguncengiz/scratchpay-clinicsearch/internal/errors"
 	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/accesslog"
 	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/log"
-	"net/http"
-	"net/http/httptest"
 )
 
-// MockRoutingContext creates a routing.Conext for testing handlers.
+// MockRoutingContext creates a routing.Context for testing handlers.
 func MockRoutingContext(req *http.Request) (*routing.Context, *httptest.ResponseRecorder) {
 	res := httptest.NewRecorder()
 	if req.Header.Get("Content-Type") == "" {
