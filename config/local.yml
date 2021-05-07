@@ -1,4 +1,4 @@
 server_port: 8081
-jwt_signing_key: "LxsKJywDL5O5PvgODZhBH12KE6k2yL8E"
 dental_clinics_file_path: "dental-clinics.json"
 vet_clinics_file_path: "vet-clinics.json"
+jwt_signing_key: "LxsKJywDL5O5PvgODZhBH12KE6k2yL8E"

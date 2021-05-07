@@ -14,17 +14,6 @@ type Service interface {
 	QueryVetClinics(ctx context.Context, input ClinicSearchRequest) ([]entity.VetClinic, error)
 }
 
-/*
-// DentalClinic represents the data about a dental clinic.
-type DentalClinic struct {
-
-}
-
-type VetClinic struct {
-
-}
-*/
-
 // ClinicSearchRequest represents a clinic search request.
 type ClinicSearchRequest struct {
 	Name   string `json:"name" required:"true"`

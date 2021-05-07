@@ -11,12 +11,12 @@ import (
 // RegisterHandlers sets up the routing of the HTTP handlers.
 func RegisterHandlers(r *routing.RouteGroup, service Service, authHandler routing.Handler, logger log.Logger) {
 	res := resource{service, logger}
-	res.logger.Info("r: %s", r)
+
+	// To use the endpoints, the client must be authorized
+	r.Use(authHandler)
 
 	r.Post("/dentalClinics", res.queryDentalClinics)
 	r.Post("/vetClinics", res.queryVetClinics)
-
-	//r.Use(authHandler)
 }
 
 type resource struct {
