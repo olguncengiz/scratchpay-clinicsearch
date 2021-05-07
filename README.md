@@ -1,6 +1,6 @@
 # RESTful API for ScratchPay Clinic Search
 
-NOTE: The base Golang RESTful API backbone is forked from http://github.com/qiangxue/go-rest-api
+NOTE: The base Golang RESTful API backbone is forked from http://github.com/olguncengiz/scratchpay-clinicsearch
 
 This project is designed to allow search in multiple clinic providers and display results from all the available clinics by any of the following:
 

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qiangxue/go-rest-api/internal/auth"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/internal/test"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/auth"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/entity"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/test"
+	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/log"
 )
 
 func TestAPI(t *testing.T) {

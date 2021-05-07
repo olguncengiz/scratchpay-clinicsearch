@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	routing "github.com/go-ozzo/ozzo-routing/v2"
-	"github.com/qiangxue/go-rest-api/internal/errors"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/errors"
+	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/log"
 )
 
 // RegisterHandlers sets up the routing of the HTTP handlers.

@@ -3,9 +3,9 @@ package auth
 import (
 	"context"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/internal/errors"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/entity"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/errors"
+	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/log"
 	"time"
 )
 

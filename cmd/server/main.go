@@ -11,13 +11,13 @@ import (
 	"github.com/go-ozzo/ozzo-routing/v2/content"
 	"github.com/go-ozzo/ozzo-routing/v2/cors"
 	_ "github.com/lib/pq"
-	"github.com/qiangxue/go-rest-api/internal/auth"
-	"github.com/qiangxue/go-rest-api/internal/clinics"
-	"github.com/qiangxue/go-rest-api/internal/config"
-	"github.com/qiangxue/go-rest-api/internal/errors"
-	"github.com/qiangxue/go-rest-api/internal/healthcheck"
-	"github.com/qiangxue/go-rest-api/pkg/accesslog"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/auth"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/clinics"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/config"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/errors"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/healthcheck"
+	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/accesslog"
+	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/log"
 )
 
 // Version indicates the current version of the application.

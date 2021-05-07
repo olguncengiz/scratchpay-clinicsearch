@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/qiangxue/go-rest-api/internal/test"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/test"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

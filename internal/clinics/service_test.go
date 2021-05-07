@@ -6,8 +6,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/entity"
+	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/log"
 	"github.com/stretchr/testify/assert"
 )
 

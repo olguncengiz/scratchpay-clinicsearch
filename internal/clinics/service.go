@@ -4,8 +4,8 @@ import (
 	"context"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/qiangxue/go-rest-api/internal/entity"
-	"github.com/qiangxue/go-rest-api/pkg/log"
+	"github.com/olguncengiz/scratchpay-clinicsearch/internal/entity"
+	"github.com/olguncengiz/scratchpay-clinicsearch/pkg/log"
 )
 
 // Service encapsulates usecase logic for clinics.
